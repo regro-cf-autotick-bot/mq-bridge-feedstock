@@ -1,5 +1,5 @@
 context:
-  version: "1.2.1"
+  version: "1.3.0"
   feature_set: full-dynamic
   llvm_major: "20"
 
@@ -9,7 +9,7 @@ recipe:
 
 source:
   - url: https://github.com/marcomq/mq-bridge/archive/refs/tags/v${{ version }}.tar.gz
-    sha256: 82fd4401cace4f887530ec44b81cafc6c45ef42b4fa05416cd4a54a21f93fed8
+    sha256: 94d8b8baf24de6f198f70d50d23cbd1b08e205cd0f61093e2c9329a76f4e5b8d
     patches:
       - patches/0006-build-the-wheel-with-full-dynamic.patch
 
